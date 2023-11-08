@@ -20,8 +20,8 @@
         this.profession = profession;
     }
 
-    toString():void{
-        console.log ("nombre: " + this.name + "\n" + "edad: " +  this.age + "\n" + "altura: " +  this.weight + "\n" + "peso: " + this.heigth + "\n" + "esta retirado: " + this.isretired + "\n" + "nacionalidad: " + this.nationality + "\n" + "Numero de oscar: " + this.oscarsNumber + "\n" + "profesion: " + this.profession);
+    toString():string{
+        return "nombre: " + this.name + "\n" + "edad: " +  this.age + "\n" + "altura: " +  this.weight + "\n" + "peso: " + this.heigth + "\n" + "esta retirado: " + this.isretired + "\n" + "nacionalidad: " + this.nationality + "\n" + "Numero de oscar: " + this.oscarsNumber + "\n" + "profesion: " + this.profession;
     }
 
 
